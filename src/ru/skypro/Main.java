@@ -22,6 +22,17 @@ public class Main {
         System.out.println("Общий вес боксеров " + weightOfAllBoxers);
         System.out.println("Разница в весе боксеров " + weightDifference);
 
+    // Задание 3
+        var bananasWeiht = 80 * 5;
+        var milkWeight = 105 * 2;
+        var icemilk = 100 * 2;
+        var eggs = 4 * 70;
+        var productWeight = bananasWeiht + milkWeight + icemilk + eggs ;
+        int grPerKg = 1000;
+        float weightKg = productWeight/(float)grPerKg;
+
+
+                System.out.println ("Общий вес " + weightKg + " кг ");
 
 
     }
