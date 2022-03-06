@@ -30,9 +30,7 @@ public class Main {
         var productWeight = bananasWeiht + milkWeight + icemilk + eggs ;
         int grPerKg = 1000;
         float weightKg = productWeight/(float)grPerKg;
-
-
-                System.out.println ("Общий вес " + weightKg + " кг ");
+        System.out.println ("Общий вес " + weightKg + " кг ");
 
 
     }
