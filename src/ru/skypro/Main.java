@@ -32,7 +32,7 @@ public class Main {
         float weightKg = productWeight/(float)grPerKg;
 
 
-                System.out.println ("Общий вес " + weightKg + " кг ");
+                System.out.println ("Общий вес родуктов " + weightKg + " кг ");
 
 
     }
